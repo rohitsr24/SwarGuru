@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SwarGuru</string>
+    <string name="todo">TODO</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="song_cover">song_cover</string>
+    <string name="fav">fav</string>
+    <string name="queue">queue</string>
+    <string name="download">download</string>
+    <string name="playlist">playlist</string>
+    <string name="share">share</string>
+    <string name="_00_00">00:00</string>
+    <string name="_06_00">06:00</string>
+    <string name="repeat">repeat</string>
+    <string name="skip_prev">skip_prev</string>
+    <string name="play_song">play_song</string>
+    <string name="skip_next">skip_next</string>
+    <string name="shuffle">shuffle</string>
+</resources>

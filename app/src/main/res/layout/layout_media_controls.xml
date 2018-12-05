@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/white"
+    android:backgroundTint="@color/_4DB6AC"
+    android:orientation="vertical"
+    android:padding="@dimen/_8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_4dp">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/_ffffff" />
+
+        <TextView
+            android:id="@+id/startSeekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBar"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_16dp"
+            android:text="@string/_00_00"
+            android:textColor="@color/_ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:text="@string/_06_00"
+            android:textColor="@color/_ffffff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/repeatSong"
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="@dimen/_32dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_16dp"
+            android:contentDescription="@string/repeat"
+            android:src="@drawable/ic_shuffle_black_24dp" />
+
+        <ImageView
+            android:id="@+id/skipPrev"
+            android:layout_width="@dimen/_36dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginEnd="@dimen/_24dp"
+            android:layout_toStartOf="@id/playSong"
+            android:contentDescription="@string/skip_prev"
+            android:src="@drawable/ic_skip_previous_black_24dp" />
+
+        <ImageView
+            android:id="@+id/playSong"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/play_song"
+            android:src="@drawable/ic_play_circle_filled_black_48dp" />
+
+        <ImageView
+            android:id="@+id/skipNext"
+            android:layout_width="@dimen/_36dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginStart="@dimen/_24dp"
+            android:layout_toEndOf="@id/playSong"
+            android:contentDescription="@string/skip_next"
+            android:src="@drawable/ic_skip_next_black_24dp" />
+
+        <ImageView
+            android:id="@+id/songShuffle"
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="@dimen/_32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:contentDescription="@string/shuffle"
+            android:src="@drawable/ic_repeat_black_24dp" />
+    </RelativeLayout>
+
+</LinearLayout>
