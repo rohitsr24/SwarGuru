@@ -17,10 +17,11 @@
         app:contentInsetStart="@dimen/_0dp"
         app:contentInsetStartWithNavigation="0dp">
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_8dp"
+            android:layout_marginStart="@dimen/_4dp"
             android:fontFamily="@font/architects_daughter"
             android:text="@string/now_playing"
             android:textColor="@android:color/white"
@@ -35,7 +36,7 @@
         android:layout_marginTop="@dimen/_50dp"
         android:contentDescription="@string/song_cover"
         android:scaleType="centerCrop"
-        android:src="@mipmap/guitar" />
+        android:src="@drawable/guitar" />
 
     <RelativeLayout
         android:layout_width="match_parent"

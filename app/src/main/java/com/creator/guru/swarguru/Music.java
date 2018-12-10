@@ -8,14 +8,12 @@ public class Music {
 
     private int mImageResourceId ;
 
-    //private int mImageResourceId1 ;
 
-    public Music(String songName, int ImageResourceId, String songArtist/**, int imageResourceId1**/){
+    public Music(String songName, int ImageResourceId, String songArtist) {
 
         mSongName = songName;
         mImageResourceId = ImageResourceId;
         mSongArtist = songArtist;
-        //mImageResourceId1 = imageResourceId1;
     }
 
     public String getSongName(){
@@ -32,10 +30,5 @@ public class Music {
 
         return mSongArtist;
     }
-
-   /** public int getImageResourceId1() {
-
-        return mImageResourceId1;
-    }**/
 
 }
