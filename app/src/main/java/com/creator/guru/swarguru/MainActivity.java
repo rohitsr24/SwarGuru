@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.rootView);
         listView.setAdapter(adapter);
 
-        //final LinearLayout b1 = (LinearLayout)  findViewById(R.id.layout);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
